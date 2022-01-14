@@ -7,7 +7,8 @@ function howMany(...args) {
   console.log(howMany("string", null, [1, 2, 3], { }));
 
 
-  const sum = (x, y, z) => {
-    const args = [x, y, z];
+  const sum = (...args) => {
     return args.reduce((a, b) => a + b, 0);
   }
+
+  sum(0,1,2);
