@@ -17,4 +17,3 @@ myMathModule.subtract(5,3);
 
 stringFunctions.uppercaseString("hello");
 stringFunctions.lowercaseString("WORLD!");
-
