@@ -8,6 +8,7 @@ const person = {
 };
 
 
+
 //With ES6, you can remove the function keyword and colon altogether when defining functions in objects. Here's an example of this syntax:
 const person = {
   name: "Taylor",
