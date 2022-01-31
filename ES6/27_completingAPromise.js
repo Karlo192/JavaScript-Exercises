@@ -16,7 +16,7 @@ const myPromise = new Promise((resolve, reject) => {
 
 const makeServerRequest = new Promise((resolve, reject) => {
     // responseFromServer represents a response from a server
-    let responseFromServer;
+    let responseFromServer = true;
       
     if(responseFromServer) {
       resolve("We got the data");
