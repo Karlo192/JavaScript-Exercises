@@ -11,3 +11,13 @@
 
 // Only integers greater than or equal to zero will be supplied to the function.
 
+
+function factorialize(num) {
+    let product = 1;
+    for (let i = 2; i <= num; i++) {
+      product *= i;
+    }
+    return product;
+  }
+  
+  factorialize(5);
