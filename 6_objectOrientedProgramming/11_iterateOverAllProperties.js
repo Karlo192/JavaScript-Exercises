@@ -18,9 +18,9 @@ let prototypeProps1 = [];
 
 for (let property in duck) {
   if(duck.hasOwnProperty(property)) {
-    ownProps.push(property);
+    ownProps1.push(property);
   } else {
-    prototypeProps.push(property);
+    prototypeProps1.push(property);
   }
 }
 
